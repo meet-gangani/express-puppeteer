@@ -1,0 +1,18 @@
+{
+    "name": "express-puppeteer",
+    "version": "1.0.0",
+    "description": "Node.js Express server with Puppeteer integration",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js",
+        "dev": "nodemon server.js"
+    },
+    "dependencies": {
+        "express": "^4.17.1",
+        "morgan-body": "^2.6.9",
+        "puppeteer": "^13.1.1"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.15"
+    }
+}
